@@ -1,34 +1,111 @@
 <html>
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="new.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body >        
         <div class="sidebar">
-            <div class="prof">
-              <img src="pfp.jpg "  height="120px" width="120px"><br>
-              <span class="name">
-              <a href="#home" ><b>Gagan Kalra</b> </a> <br>
-              </span>
-              <a><i class="fa fa-twitter"></i></a>
-              <a><i class="fa fa-instagram"></i></a>
-              <a><i class="fa fa-facebook"></i></a>
-              <a><i class="fa fa-skype"></i></a>
-              <a href="https://www.linkedin.com/in/gagan-kalra-173412221"><i class="fa fa-linkedin"></i></a>
+          <div class="prof">
+            <img src="pfp.jpg "  height="120px" width="120px"><br>
+            <span class="name">
+            <a href="#home" ><b>Gagan Kalra</b> </a> <br>
+            </span>
+            <a><i class="fa fa-twitter"></i></a>
+            <a><i class="fa fa-instagram"></i></a>
+            <a><i class="fa fa-facebook"></i></a>
+            <a><i class="fa fa-skype"></i></a>
+            <a href="https://www.linkedin.com/in/gagan-kalra-173412221"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="side-menu">
+              <ul >
+                  <li><div class="sim"><a href="#home"><i class="fa fa-home active" ></i>Home</a></div></li>
+                  <li><div class="sim"><a href="#about"><i class="fa fa-User"></i>About</a></div></li>
+                  <li><div class="sim"><a href="#Resume"><i class="fa fa-file"></i>Resume</a></div></li>
+                  <li><div class="sim"><a href="#Portfolio"><i class="fa fa-folder"></i>Portfolio</a></div></li>
+                  <li><div class="sim"><a href="#Services"><i class="fa fa-server"></i>Services</a></div></li>
+              </ul>       
+          </div>      
+          <footer id="footer">Designed by Gagan Kalra</footer>  
+        </div> 
+        <div class="container bodyy" >
+          <div id="home" class="main">
+            <h1>This is Gagan kalra<br></h1>
+          </div>
+          <div id="about" class="content">
+            <h6>About</h6><hr>
+            <p>My specialties include quickly learning new skills and programming languages and problem solving. So far I have Javascript, HTML, CSS, C, SQL and Python under my belt. I've started learning Node.JS, MongoDB, Express.js and React.Js.I'm still enthusiastically grabbing onto other programming languages, frameworks, competitive principles I can integrate into the coding web in my head.</p>            <div class="row">
+              <div class="col-4 " >
+                <img src="pfp.jpg" height="325.667px" width="325.677px">
+              </div>
+              <div class="col-8 des">
+                <span><strong>Web Devloper & Programmer</strong></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua. </p>
+              </div> 
             </div>
-            <div class="side-menu">
-                <ul >
-                    <li><div class="sim"><a href="#home"><i class="fa fa-home active" ></i>Home</a></div></li>
-                    <li><div class="sim"><a href="#about"><i class="fa fa-User"></i>About</a></div></li>
-                    <li><div class="sim"><a href="#Resume"><i class="fa fa-file"></i>Resume</a></div></li>
-                    <li><div class="sim"><a href="#Portfolio"><i class="fa fa-folder"></i>Portfolio</a></div></li>
-                    <li><div class="sim"><a href="#Services"><i class="fa fa-server"></i>Services</a></div></li>
-                </ul>       
-            </div>      
-            <footer id="footer">Designed by Gagan Kalra</footer>  
-          </div> 
- 
+          </div>
+          <div id="facts" class="content">
+            <h6>Facts</h6><hr>
+          </div>
+          <div id="skills" class="content">
+            <h6>Skills</h6><hr>
+          </div>
+          <div id="#Resume" class="content">
+            <h6>Resume</h6><hr>
+          </div>
+          <div id="portfolio" class="content">
+            <h6>Portfolio</h6><hr>
+          </div>
+          <div id="services" class="content">
+            <h6>Projects</h6><hr>
+          </div>
+          <div id="contact" class="content">
+            <h6>Contact</h6><hr>
+            <form action="mailto:gagankalra0919@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <div class="row">
+                <div class="col-5 discon"></div>
+                <div class="col-6 feedback">
+                  <form>
+                    <div class="row">
+                      <div class="col-sm">Your Name</div>
+                      <div class="col-sm">Your Email</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm"><input type="text" id="text1"></div>
+                      <div class="col-sm"><input type="text" id="text1"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">Subject</div>
+                      
+                    </div>
+                    <div class="row">
+                      <div class="col-6"><input type="text" id="text2"></div>
+                      
+                    </div>
+                    <div class="row">
+                      <div class="col-6">Message</div>
+                      
+                    </div>
+                    <div class="row">
+                      <div class="col-6"><textarea id="textarea"></textarea></div>
+                      <input type="submit">
+                    </div>
+                  
+                  </form>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+		    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 
     </body>
 </html>
